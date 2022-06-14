@@ -1,0 +1,63 @@
+[
+  {
+    "description": "   Feature Cart",
+    "keyword": "Feature",
+    "name": "Add to Cart",
+    "line": 1,
+    "id": "add-to-cart",
+    "tags": [],
+    "uri": "addtocart.feature",
+    "elements": [
+      {
+        "id": "add-to-cart;test-the-cart-functionality",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Test the cart functionality",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User in appliction interface",
+            "result": {
+              "status": "passed",
+              "duration": 3314000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User searchs the product",
+            "result": {
+              "status": "passed",
+              "duration": 1408000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "click on the add to cart button",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "product should be added in cart",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

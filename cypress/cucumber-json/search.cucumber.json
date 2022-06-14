@@ -1,0 +1,53 @@
+[
+  {
+    "description": "    Feature this feature test the serach functionality",
+    "keyword": "Feature",
+    "name": "Search",
+    "line": 1,
+    "id": "search",
+    "tags": [],
+    "uri": "search.feature",
+    "elements": [
+      {
+        "id": "search;search-success",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Search Success",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user opens the application in browser",
+            "result": {
+              "status": "passed",
+              "duration": 3535000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "user search some items in the search box",
+            "result": {
+              "status": "passed",
+              "duration": 1197000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "those items should be visible in search results",
+            "result": {
+              "status": "passed",
+              "duration": 54000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
